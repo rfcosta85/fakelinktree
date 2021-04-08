@@ -2,3 +2,81 @@
     margin: 0;
     padding: 0;
 }
+
+body
+{
+
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;    
+    background-image: linear-gradient(220deg, rgba(0, 0, 0, 0.952), rgba(0, 0, 0, 0.856)), url('chuttersnap-IfmO3IJ1j_8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+
+}
+
+.grid-container 
+{
+    
+    display: grid;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+
+img 
+{
+
+    width: 20%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+a 
+{
+    display: grid;
+    align-items: center;
+    text-decoration: none; 
+    color:rgba(246, 85, 120, 0.933);  
+    height: 5vh; 
+    margin: auto;
+}
+
+p 
+{
+
+    color:rgba(246, 85, 120, 0.933);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-bottom: 3%;
+
+}
+
+h3
+{
+
+    display: grid;    
+    text-align: center;
+    font-weight: bolder;
+    color: rgba(246, 85, 120, 0.884);
+    border: solid white;    
+    margin-bottom: 7%;
+    
+}
+
+h3:hover 
+{
+
+    cursor: pointer;
+    -webkit-transform: scale(1.03);
+}
+
+footer 
+{
+
+    color: white;
+    margin: auto;
+    font-weight: bolder;
+}
+
